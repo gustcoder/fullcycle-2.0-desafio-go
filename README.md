@@ -1,1 +1,1 @@
-### gustcoder/codeeducation
+### docker run --rm gustcoder/codeeducation

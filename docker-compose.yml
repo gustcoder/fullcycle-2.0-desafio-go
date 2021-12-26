@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  goapp:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    image: gustcoder/codeeducation
+    container_name: goapp
+    tty: true
+    volumes:
+      - $PWD:/var/www/app
